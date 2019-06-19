@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i|Spectral:400,400i');
+
+h1 header {
+  font-size: 40px;
+}
+
+header nav {
+  font-size: 16px;
+}
+
+header {
+  text-align: center;
+  margin: 60px;
+  padding: 40px 20px;
+  background-color: #fcde21;
+  height: 100px;
+  color: #333333;
+}
+
+main h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+main h3 {
+  font-family: Spectral;
+  font-size: 22px;
+}
+
+main p {
+  font-size: 20px;
+  font-family: Spectral;
+}
+
+h3 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:hover {
+  color: black;
+  background-color: purple;
+}
+
+main {
+  padding: 0px 80px 0px 80px;
+  margin: auto;
+}
+
+footer {
+  background-color: #fcde21;
+  margin: 0px 75px 40px 75px;
+}
