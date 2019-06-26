@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+nav {
+  font-family: "Raleway";
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7B98AA;
+  word-spacing: 70px;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav :link {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lato";
+  text-align: left;
+  font-weight: 400;
+  font-size: 15px;
+  color: #44545E;
+  line-height: 20px;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr .5fr;
+  grid-column-gap: 30px;
+}
+
+.item:nth-child(even) {
+  background: #236fc8;
+}
+
+p {
+  font-family: "lato";
+  font-size: 15px;
+  width: 700px;
+}
+
+p.ex1 {
+  margin: 35px;
+}
+
+h1 {
+  font-size: 37px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  text-align: left;
+}
+
+h2 {
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: "Raleway";
+  text-align: left;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+ul {
+  color: 44545E;
+}
+
+ul :link {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  line-height: 20px;
+  padding: 20px;
+  background-color: #CDF3F6;
+}
+
+footer :link {
+  text-decoration: none;
+}
+
+p.1 {
+  margin: auto;
+}
