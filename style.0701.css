@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600&display=swap');
+
+/* Add a link to GOOGLE FONTS LINK at the top! THis should be the first line of your stylesheet.*/
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+/* <img src="images/home_header_bg.jpg" alt="">      main image*/
+* {
+  box-sizing: border-box;
+}
+
+style {}
+
+nav {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+  word-spacing: 100px;
+}
+
+header {
+  font-family: "Raleway";
+  font-weight: 600;
+  padding-bottom: 30px;
+  background-image: url('../images/home_header_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  margin-bottom: 48px;
+  margin-bottom: 50px;
+  padding-top: 80px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  weight: 600;
+  text-align: center;
+  margin: 0;
+  color: #44545e;
+  font-size: 15px;
+  letter-spacing: .8px;
+  text-transform: uppercase;
+}
+
+/*Note: fix so that images will scale with their containers. We'll chat about this more when we cover responsive design*/
+img {
+  max-width: 100%;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+button {
+  font-size: 13px;
+  Color: #7B98aa;
+  margin-bottom: 40px;
+}
+
+a {
+  color: #c7bb00ad;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  weight: 600;
+  text-align: center;
+  margin: 0;
+  font-size: 25px;
+  letter-spacing: .8px;
+  text-transform: uppercase;
+  padding: 60px;
+}
+
+h1 {
+  letter-spacing: 10px;
+  color: white;
+  Raleway: 600;
+  font-size: 37px;
+  text-align: center;
+  margin-bottom: 60;
+  align-items: center;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10 px;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 23px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: #44545e;
+}
+
+p {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: lowercase;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.abouText {
+  background-color: #beef895c;
+  text-align: center;
+  color: #44545e;
+  border-top: 0px;
+  font-family: "lato";
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: lowercase;
+  padding: 80px;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.abouText h2 {
+  color: #44545e;
+}
+
+footer {
+  background-color: #2d5502;
+  text-align: center;
+  color: #44545e;
+  border-top: 10px;
+  font-family: "lato";
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: lowercase;
+  padding-bottom: 180px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-bottom: 80px;
+  width: 100%;
+}
+
+.footerText {
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+.copyright {
+  font-family: "lato";
+  font-weight: 400;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: -80px;
+  margin-right: -80px;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.socialMediaHover {
+  position: absolute;
+  top: 5% transform: translate(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+/*.social-links {}*/
+/* ----------------------------------------
+Header
+------------------------------------------- */
+/* ----------------------------------------
+Articles
+------------------------------------------- */
+/* ----------------------------------------
+About
+------------------------------------------- */
+/* ----------------------------------------
+Gallery
+------------------------------------------- */
+/* ----------------------------------------
+Footer
+------------------------------------------- */
